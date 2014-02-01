@@ -1,7 +1,25 @@
+import argparse
+import json
+
 import data
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Process the dataset.")
+    parser.add_argument('--json', action='store_true')
+    parsed_args = vars(parser.parse_args())
+
+    if parsed_args['json']:
+        print as_json()
+    else:
+        pretty_print()
+
+
+def as_json():
+    return json.dumps(list(row._asdict() for row in data.dataset()))
+
+
+def pretty_print():
     for x in data.dataset():
         if x.latlon is not None:
             print "======================================\n"
