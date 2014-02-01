@@ -22,15 +22,18 @@ def dataset():
     """
 
     with open(os.environ['LONGWOOD_DATASET'], 'rbU') as csvfile:
-        reader = csv.reader(csvfile, delimiter=",", quotechar='"')
+        reader = csv.DictReader(csvfile, delimiter=",", quotechar='"')
         reader.next()
         for row in reader:
 
-            year = row[0][0:4]
-            accession_number, species = row[0:2]
-            # ignore row[2] since we don't know what it is
-            country, locality = row[3:5]
-            latlon = normalize_latlon(row[5:])
+            year = row['ACC_NUM'][0:4]
+            accession_number = row['ACC_NUM']
+            species = row['NAME']
+            country = row['COUNTRY_FULL']
+            locality = row['LOCALITY']
+            latlon = normalize_latlon(row['LAT_DEGREE'], row['LAT_DIR'],
+                                      row['LONG_DEGREE'], row['LONG_DIR'],
+                                      row['HumanLat'], row['HumanLong'])
 
             if latlon == '':
                 latlon = 'MISSING'
@@ -39,10 +42,13 @@ def dataset():
                            latlon)
 
 
-def normalize_latlon(columns):
+def normalize_latlon(*columns):
     """Convert latitude and longitude columns into a tuple of floats."""
 
-    lat, lat_direction, lon, lon_direction = columns
+    lat, lat_direction, lon, lon_direction, human_lat, human_lon = columns
+
+    if human_lat and human_lon:
+        return float(human_lat), float(human_lon)
 
     # if there's no lat/lon data, just return None
     if any(True for deg in (lat, lon) if deg == ''):
