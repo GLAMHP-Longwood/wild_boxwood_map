@@ -11,4 +11,4 @@ Team members included:
 * Audrey Hamelers
 * Daniel Beck
 * Nico Carver
-* Thed Schall
+* Theo Schall
