@@ -6,6 +6,8 @@ This project was created for GLAM Hack Philly 2014's `Longwood Gardens – Wild 
 
 .. __: http://glamhack.com/submitted-challenges/longwood-gardens-wild-boxwood-collection/
 
+You can see the completed map at: http://glamhp-longwood.github.io/wild_boxwood_map/
+
 Team members included:
 
 * Audrey Hamelers
