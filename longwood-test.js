@@ -1,4 +1,5 @@
 var map;
+var oms;
 var markers = new Array();
 var infowindows = new Array();
 
@@ -51,17 +52,20 @@ function initialize() {
   };
 
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  oms = new OverlappingMarkerSpiderfier(map);
 
   addMarkersAndInfowindows();
 
   for (var i = 0; i < markers.length; i++) {
     markers[i].setMap(map);
-    google.maps.event.addListener(markers[i], 'click', function(e) {
-      this.__infowindow.open(map, this);
-    });
+    oms.addMarker(markers[i]);
   }
 
-  var markerCluster = new MarkerClusterer(map, markers);
+  oms.addListener('click', function(m, e) {
+    m.__infowindow.open(map, m);
+  });
+
+  var markerCluster = new MarkerClusterer(map, markers, {maxZoom: 10});
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
