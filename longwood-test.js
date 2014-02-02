@@ -15,9 +15,13 @@ function makeMarkerAndInfobox(currentSpecimen) {
     '<div class="siteNotice">'+
     '</div>'+
     '<h1 class="firstHeading" class="firstHeading">'+currentSpecimen.species+'</h1>'+
-    '<div class="bodyContent">'+
-    '<img src="img/' + currentSpecimen.accession_number + '.jpg" />'+
-    '<p>'+currentSpecimen.locality+'</p>'+
+    '<div class="bodyContent">';
+
+  if (currentSpecimen.has_picture === true) {
+    contentInfobox += '<img src="img/' + currentSpecimen.accession_number + '.jpg" />';
+  }
+
+  contentInfobox += '<p>'+currentSpecimen.locality+'</p>'+
     '<p>Accession Number: '+currentSpecimen.accession_number+ '<br/>'+
     'Country: '+currentSpecimen.country+ '<br/>' +
     'Species: '+currentSpecimen.species+'</p>'+
