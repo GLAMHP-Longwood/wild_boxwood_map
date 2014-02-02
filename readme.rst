@@ -14,3 +14,11 @@ Team members included:
 * Daniel Beck
 * Nico Carver
 * Theo Schall
+
+
+Technical details
+=================
+
++ ``boxwood`` is a Python module that processes the dataset and produces the JSON file needed for the public site.
++ ``data`` is the dataset provided by Longwood Gardens and associated images. Some human-led amendments to the data were made to narrow down locations for each record.
++ The ``gh-pages`` branch of this repository contains the public site HTML and JavaScript.
