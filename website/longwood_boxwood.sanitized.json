@@ -1,0 +1,1542 @@
+var boxwoodData = [
+    {
+        "accession_number": "2002-0600",
+        "country": "Azerbaijan",
+        "latlon": [
+            38.543332,
+            48.825302
+        ],
+        "locality": "near a road leading to the Hyrcean Nature Preserve, Lenkoran, Azerbaijan",
+        "species": "Buxus hyrcana",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0610",
+        "country": "Azerbaijan",
+        "latlon": [
+            38.33863,
+            48.43843
+        ],
+        "locality": "in Astara, Azerbaijan in the hills north and west",
+        "species": "Buxus hyrcana",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0615",
+        "country": "Georgia",
+        "latlon": [
+            41.6086375,
+            45.9307909
+        ],
+        "locality": "Bodbe, near Signakhi, Georgia on a slope in a monastery near the steps leading to the nuns living quarters",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0616",
+        "country": "Georgia",
+        "latlon": [
+            41.6086375,
+            45.9307909
+        ],
+        "locality": "Bodbe, near Signakhi, Georgia in a monastery in an allee running through the monastery's vegetable garden",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0617",
+        "country": "Georgia",
+        "latlon": [
+            41.6086375,
+            45.9307909
+        ],
+        "locality": "Bodbe, near Signakhi, Georgia in a monastery in an allee running through the monastery's vegetable garden",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0619",
+        "country": "Georgia",
+        "latlon": [
+            41.6501661,
+            42.0602518
+        ],
+        "locality": "near a villagae in Dandal, Adjara. Georgia near a 12th century stone bridge",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0632",
+        "country": "Georgia",
+        "latlon": [
+            42.4545024,
+            43.0818693
+        ],
+        "locality": "at the Sharaula gorge, near village Nikortsminda, at the hydropower station, Racha, Georgia, 5m away from the river",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0644",
+        "country": "Russian Federation",
+        "latlon": [
+            43.5712976,
+            39.7427223
+        ],
+        "locality": "in Sochi Dendrarium, Russia on a slope below Japanese Garden",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0645",
+        "country": "Russian Federation",
+        "latlon": [
+            43.5712976,
+            39.7427223
+        ],
+        "locality": "in Sochi Dendrarium, Russia, in a hege near a large, semi-circular arbor in lower part of Dendrarium",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0647",
+        "country": "Russian Federation",
+        "latlon": [
+            44.4198544,
+            34.0506307
+        ],
+        "locality": "in Vorontsov Park in Alupka, near Ylata, Ukraine",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0648",
+        "country": "Ukraine",
+        "latlon": [
+            44.4679265,
+            34.1435889
+        ],
+        "locality": "in Livadiya Park in Yalta, Ukraine, in front of the palace where Stalin-Churchil-Roosevelt meeting took place",
+        "species": "Buxus balearica",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0649",
+        "country": "Ukraine",
+        "latlon": [
+            44.4198544,
+            34.0506307
+        ],
+        "locality": "in Vorontsov Park in Alupka, near Yalta, Ukraine",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0650",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, in a hedge surrounding a building near entrance",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0651",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, in a hedge though same plant found in other locations in garden",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0652",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, this plant on the oppostie side of the path from AGRU-79",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0654",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, this plant a young solitary specimen",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0655",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, growing in a low hedge",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0656",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, this plant grown as a hedge in many parts of garden",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0657",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, in a hedge of mostly AGRU-84",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0658",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine, plant gowing under a large yew tree",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "2002-0659",
+        "country": "Ukraine",
+        "latlon": [
+            44.5106284,
+            34.23185
+        ],
+        "locality": "in Nikita Botanical Garden in Yalta, Ukraine",
+        "species": "Buxus sempervirens",
+        "year": "2002"
+    },
+    {
+        "accession_number": "1997-1035",
+        "country": "Albania",
+        "latlon": [
+            40.21444,
+            19.57694
+        ],
+        "locality": "Kampi I Llogora, Camp of Llogora, Llogora National Park",
+        "species": "Buxus sempervirens",
+        "year": "1997"
+    },
+    {
+        "accession_number": "2001-1280",
+        "country": "Georgia",
+        "latlon": [
+            41.48014,
+            44.49357
+        ],
+        "locality": "Church of Saint George, near Navdaraant Kari",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1287",
+        "country": "Georgia",
+        "latlon": [
+            41.8667042,
+            44.9124449
+        ],
+        "locality": "Shiogvime Monastery near Mtskheta",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1289",
+        "country": "Georgia",
+        "latlon": [
+            41.6851348,
+            44.8029682
+        ],
+        "locality": "Tbilisi Botanical Garden",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1291",
+        "country": "Georgia",
+        "latlon": [
+            41.8368437,
+            44.4499327
+        ],
+        "locality": "Kvatakhevi Monastery near Tsinarekhi village",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1292",
+        "country": "Georgia",
+        "latlon": [
+            41.1202,
+            46.22404
+        ],
+        "locality": "research station of the Vashlovani Nature Reserve",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1294",
+        "country": "Georgia",
+        "latlon": [
+            41.1202,
+            46.22404
+        ],
+        "locality": "Kasristskali village naer the Vashlovani Nature Reserve",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1281",
+        "country": "Georgia",
+        "latlon": [
+            41.48014,
+            44.49357
+        ],
+        "locality": "Church of Saint George, near Navdaraant Kari",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1295",
+        "country": "Georgia",
+        "latlon": [
+            41.1202,
+            46.22404
+        ],
+        "locality": "Kasristskali village naer the Vashlovani Nature Reserve",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1299",
+        "country": "Georgia",
+        "latlon": [
+            41.9056702,
+            46.2978888
+        ],
+        "locality": "Lagodekhi Nature Reserve headquarters",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1300",
+        "country": "Georgia",
+        "latlon": [
+            42.0039907,
+            45.7119548
+        ],
+        "locality": "Abano Health Resort near Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1301",
+        "country": "Georgia",
+        "latlon": [
+            42.0039907,
+            45.7119548
+        ],
+        "locality": "Abano Health Resort near Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1302",
+        "country": "Georgia",
+        "latlon": [
+            42.0039907,
+            45.7119548
+        ],
+        "locality": "Abano Health Resort near Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1303",
+        "country": "Georgia",
+        "latlon": [
+            42.0039907,
+            45.7119548
+        ],
+        "locality": "Abano Health Resort near Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1304",
+        "country": "Georgia",
+        "latlon": [
+            41.59421,
+            45.47355
+        ],
+        "locality": "Bzatagora (Boxwood Hill) near Kvareli, 15 km east of Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1306",
+        "country": "Georgia",
+        "latlon": [
+            41.59421,
+            45.47355
+        ],
+        "locality": "Bzatagora (Boxwood Hill) near Kvareli, 15 km east of Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1307",
+        "country": "Georgia",
+        "latlon": [
+            41.59421,
+            45.47355
+        ],
+        "locality": "Bzatagora (Boxwood Hill) near Kvareli, 15 km east of Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1309",
+        "country": "Georgia",
+        "latlon": [
+            41.59421,
+            45.47355
+        ],
+        "locality": "Bzatagora (Boxwood Hill) near Kvareli, 15 km east of Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1310",
+        "country": "Georgia",
+        "latlon": [
+            41.59421,
+            45.47355
+        ],
+        "locality": "Bzatagora (Boxwood Hill) near Kvareli, 15 km east of Shilda",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1311",
+        "country": "Georgia",
+        "latlon": [
+            41.8974696,
+            45.5677163
+        ],
+        "locality": "Tsinandali Park and Museum of Alexander Chavchavadze, east of Telavi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1312",
+        "country": "Georgia",
+        "latlon": [
+            41.698166,
+            44.3731356
+        ],
+        "locality": "house of Khatuna Tsiklauri in Manglisi, 90 km west of Tbilisi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1313",
+        "country": "Georgia",
+        "latlon": [
+            41.42956,
+            44.48797
+        ],
+        "locality": "purchased from roadside vendor outside of Tbilisi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1314",
+        "country": "Georgia",
+        "latlon": [
+            41.7098734,
+            44.7383236
+        ],
+        "locality": "Vake Cemetery at Tbilisi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1316",
+        "country": "Georgia",
+        "latlon": [
+            41.7098734,
+            44.7383236
+        ],
+        "locality": "Vake Cemetery at Tbilisi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1317",
+        "country": "Georgia",
+        "latlon": [
+            41.8974696,
+            45.5677163
+        ],
+        "locality": "Tsinandali Park and Museum of Alexander Chavchavadze, east of Telavi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1318",
+        "country": "Georgia",
+        "latlon": [
+            41.8625597,
+            43.1372005
+        ],
+        "locality": "Borjomi National Park headquarters",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1319",
+        "country": "Georgia",
+        "latlon": [
+            41.8363263,
+            43.3701019
+        ],
+        "locality": "Borjomi-Likani health resort",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1321",
+        "country": "Georgia",
+        "latlon": [
+            41.45272,
+            43.30233
+        ],
+        "locality": "Bakuriani Ecological Station",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1322",
+        "country": "Georgia",
+        "latlon": [
+            41.8363263,
+            43.3701019
+        ],
+        "locality": "Borjomi-Likani health resort",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1323",
+        "country": "Georgia",
+        "latlon": [
+            41.8363263,
+            43.3701019
+        ],
+        "locality": "Borjomi-Likani health resort",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1324",
+        "country": "Georgia",
+        "latlon": [
+            41.7468829,
+            43.5279179
+        ],
+        "locality": "old botanical garden in Bakuriani ",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1326",
+        "country": "Georgia",
+        "latlon": [
+            41.48085,
+            43.1161
+        ],
+        "locality": "near a village of Kharagauli, south of the road from Khashuri to Zestaponi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1328",
+        "country": "Georgia",
+        "latlon": [
+            41.48085,
+            43.1161
+        ],
+        "locality": "near a village of Kharagauli, south of the road from Khashuri to Zestaponi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1331",
+        "country": "Georgia",
+        "latlon": [
+            41.48085,
+            43.1161
+        ],
+        "locality": "near a village of Kharagauli, south of the road from Khashuri to Zestaponi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1332",
+        "country": "Georgia",
+        "latlon": [
+            41.48085,
+            43.1161
+        ],
+        "locality": "near a village of Kharagauli, south of the road from Khashuri to Zestaponi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2012-0869",
+        "country": "",
+        "latlon": [
+            41.48085,
+            43.1161
+        ],
+        "locality": "near a village of Kharagauli, south of the road from Khashuri to Zestaponi",
+        "species": "Buxus sempervirens",
+        "year": "2012"
+    },
+    {
+        "accession_number": "2001-1340",
+        "country": "Georgia",
+        "latlon": [
+            41.682,
+            42.039
+        ],
+        "locality": "Kintrishi Gorge Nature Preserve, 50 km northeast of Batumi",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1285",
+        "country": "Georgia",
+        "latlon": [
+            41.8712146,
+            44.7662327
+        ],
+        "locality": "Zedazeni Monastery in Saguramo Nature Reserve",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1344",
+        "country": "Georgia",
+        "latlon": [
+            41.32353,
+            41.37543
+        ],
+        "locality": "Matschachela river valley, south of Batumi, near Turkish border",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "2001-1350",
+        "country": "Georgia",
+        "latlon": [
+            41.692717,
+            41.719783
+        ],
+        "locality": "Batumi Botanical Garden",
+        "species": "Buxus sempervirens",
+        "year": "2001"
+    },
+    {
+        "accession_number": "1958-1922",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-101/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1871",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-106/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1883",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-123/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1939",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-129/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1955",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-13/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1944",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-22/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1945",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-24/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1863",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-25/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1946",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-26/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1864",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-27/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1865",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-28/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1858",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-40/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1859",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-42/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1951",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-43/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1965",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-6/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1835",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-63/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1843",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-64/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1904",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-81/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1907",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-87/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "1958-1914",
+        "country": "Macedonia",
+        "latlon": [
+            42.003991,
+            21.4236027
+        ],
+        "locality": "Vardar Valley, near Scupi",
+        "species": "Buxus sempervirens /K-96/",
+        "year": "1958"
+    },
+    {
+        "accession_number": "2007-0857",
+        "country": "Macedonia",
+        "latlon": [
+            41.95993823,
+            21.29631321
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0858",
+        "country": "Macedonia",
+        "latlon": [
+            41.95758675,
+            21.29677392
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0859",
+        "country": "Macedonia",
+        "latlon": [
+            41.95078947,
+            21.29948585
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0861",
+        "country": "Macedonia",
+        "latlon": [
+            41.94986156,
+            21.29886035
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0862",
+        "country": "Macedonia",
+        "latlon": [
+            41.97319303,
+            21.37724516
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0863",
+        "country": "Macedonia",
+        "latlon": [
+            41.97253293,
+            21.37724516
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0864",
+        "country": "Macedonia",
+        "latlon": [
+            41.81823711,
+            21.63074947
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0865",
+        "country": "Macedonia",
+        "latlon": [
+            41.81847856,
+            21.63087948
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0866",
+        "country": "Macedonia",
+        "latlon": [
+            41.81784171,
+            21.59870326
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0867",
+        "country": "Macedonia",
+        "latlon": [
+            41.81783644,
+            21.59921101
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0868",
+        "country": "Macedonia",
+        "latlon": [
+            41.81786629,
+            21.59922614
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0869",
+        "country": "Macedonia",
+        "latlon": [
+            41.81787351,
+            21.59914776
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0870",
+        "country": "Macedonia",
+        "latlon": [
+            41.8178047,
+            21.59925078
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0872",
+        "country": "Macedonia",
+        "latlon": [
+            41.98084374,
+            21.60119293
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0873",
+        "country": "Macedonia",
+        "latlon": [
+            41.80939019,
+            21.60119293
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0874",
+        "country": "Macedonia",
+        "latlon": [
+            41.80925296,
+            21.60138235
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0875",
+        "country": "Macedonia",
+        "latlon": [
+            41.8204414,
+            21.59876846
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0876",
+        "country": "Macedonia",
+        "latlon": [
+            41.81864254,
+            21.59858334
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0877",
+        "country": "Macedonia",
+        "latlon": [
+            41.36126213,
+            22.25388479
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0878",
+        "country": "Macedonia",
+        "latlon": [
+            41.8400809,
+            21.6819142
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0879",
+        "country": "Macedonia",
+        "latlon": [
+            41.83381486,
+            21.68188349
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0880",
+        "country": "Macedonia",
+        "latlon": [
+            41.83370497,
+            21.68207543
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0881",
+        "country": "Macedonia",
+        "latlon": [
+            41.83361077,
+            21.68225609
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0882",
+        "country": "Macedonia",
+        "latlon": [
+            41.8336915,
+            21.68211995
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0883",
+        "country": "Macedonia",
+        "latlon": [
+            40.92826584,
+            20.7773823
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0884",
+        "country": "Macedonia",
+        "latlon": [
+            40.92330173,
+            20.77391487
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0885",
+        "country": "Macedonia",
+        "latlon": [
+            40.91901429,
+            20.77405616
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0886",
+        "country": "Macedonia",
+        "latlon": [
+            40.918659,
+            20.7739705
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2007-0888",
+        "country": "Macedonia",
+        "latlon": [
+            40.90683733,
+            20.80014459
+        ],
+        "locality": "",
+        "species": "Buxus sempervirens",
+        "year": "2007"
+    },
+    {
+        "accession_number": "2004-0418",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0419",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0420",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0422",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0431",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0432",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0433",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0434",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0435",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0437",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0438",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0439",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0440",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0441",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0442",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0443",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0444",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0445",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0446",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0448",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0449",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0450",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0451",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0452",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0453",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0454",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0455",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0456",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0458",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    },
+    {
+        "accession_number": "2004-0459",
+        "country": "Russian Federation",
+        "latlon": [
+            43.6017215,
+            39.725129
+        ],
+        "locality": "in western Caucasus, Sochi region, Krasnodarskiy Kray, Russia",
+        "species": "Buxus sempervirens",
+        "year": "2004"
+    }
+];

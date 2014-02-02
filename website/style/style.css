@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+	font-size: 62.5%;
+}
+
+#info {
+	position: absolute;
+	bottom: 40px; left: 40px;
+	bottom: 4rem; left: 4rem;
+	z-index: +1;
+	width: 368px;
+	font-size: 1.5rem;
+	font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+	padding: 3rem;
+	background-color: #fff;
+	-moz-box-shadow: 2px 2px 8px 1px #888;
+	-webkit-box-shadow: 2px 2px 8px 1px #888;
+	box-shadow: 2px 2px 8px 1px #888;
+}
+
+#plus {
+	display: none;
+}
+
+#info.min {
+	height: 40px;
+	padding: 0;
+}
+
+#info.min h1 {
+	vertical-align: top;
+	font-size: 1.8rem;
+	margin-bottom:0;
+	padding: 1rem;
+}
+
+#info.min #plus {	
+	float: right;
+}
+
+#info.min #plus, #minus {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 0 .5rem .5rem;
+	padding: 0rem .7rem .2rem;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: bold;
+	color: #fff;
+	background-color: #000;
+}
+
+#minus {
+	position: absolute;
+	top: 1rem; right: 1rem;
+}
+
+#info.min p, #info.min a, #info.min #minus {
+	display: none;
+}
+
+header h1 {
+	margin-top: 0;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+.logo {
+	width: 200px;
+	margin: -10px auto -30px;
+}
+
+#map-canvas {
+	height: 100%;
+}
+
+.bodyContent img {
+	max-width: 100%;
+	max-height: 70%;
+}

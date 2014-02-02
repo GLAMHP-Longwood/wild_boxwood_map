@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Longwood Wild Boxwoods</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_TZIr8eMJ_lRuNT1SNn8ibpeI-mjlWfA&sensor=false"></script>
+    <script src="longwood-test.js"></script>
+    <script src="longwood_boxwood.sanitized.json"></script>
+    <script src="markerclusterer.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#map-canvas").click(function() {
+				$("#info").addClass("min");
+				$("#minus").hide();
+			});
+			$("#minus").click(function() {
+				$("#info").addClass("min");
+				$("#minus").hide();
+			});
+			$("#plus").click(function() {
+				$("#info").removeClass("min");
+				$("#minus").show();
+			});
+		});
+	</script>
+  </head>
+  <body>
+	<div id="info">
+		<span id="minus">-</span>
+		<header>
+			<h1>Wild Boxwood Origin Map <span id="plus">+</span></h1>
+		</header>
+		<p>Longwood Gardens has one of the largest collections of Buxus sempervirens wild collected in its native range in the country. We have 142 living accessions that have detailed provenance information.</p> 
+		<a href="http://longwoodgardens.org"><img src="http://longwoodgardens.org/sites/default/files/wysiwyg/Lgwd.G-Logo-lockup_Layered.jpg" class="logo" alt="Longwood Gardens"/></a>
+		</nav>
+	</div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
