@@ -5,7 +5,8 @@ import os
 
 
 class Specimen(namedtuple('Specimen_', ['year', 'accession_number', 'species',
-                                        'country', 'locality', 'latlon'])):
+                                        'country', 'locality', 'latlon',
+                                        'has_picture'])):
     """A namedtuple for specimen rows."""
 
     def js_safe_id(self):
@@ -21,7 +22,10 @@ def dataset():
     Specify the CSV file with the ``LONGWOOD_DATASET`` environment variable.
     """
 
-    with open(os.environ['LONGWOOD_DATASET'], 'rbU') as csvfile:
+    dataset_path = os.environ['LONGWOOD_DATASET']
+    img_dir_path = os.path.join(os.path.dirname(dataset_path), 'img/')
+
+    with open(dataset_path, 'rbU') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"')
         reader.next()
         for row in reader:
@@ -35,11 +39,12 @@ def dataset():
                                       row['LONG_DEGREE'], row['LONG_DIR'],
                                       row['HumanLat'], row['HumanLong'])
 
-            if latlon == '':
-                latlon = 'MISSING'
+            _possible_img = os.path.join(img_dir_path,
+                                         '{}.jpg'.format(accession_number))
+            has_picture = os.path.isfile(_possible_img)
 
             yield Specimen(year, accession_number, species, country, locality,
-                           latlon)
+                           latlon, has_picture)
 
 
 def normalize_latlon(*columns):
