@@ -79,7 +79,11 @@ nav ul {
 	height: 100%;
 }
 
+.bodyContent p {
+	max-width: 500px;
+}
+
 .bodyContent img {
+	min-height: 375px;
 	max-width: 100%;
-	max-height: 70%;
 }

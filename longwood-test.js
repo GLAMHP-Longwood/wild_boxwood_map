@@ -8,7 +8,7 @@ function makeMarkerAndInfobox(currentSpecimen) {
   var marker = new google.maps.Marker({
     position: positionOnMap,
     map: map,
-    title: currentSpecimen.locality
+    title: currentSpecimen.species
   });
 
   var contentInfobox =  '<div class="content">'+
@@ -16,7 +16,7 @@ function makeMarkerAndInfobox(currentSpecimen) {
     '</div>'+
     '<h1 class="firstHeading" class="firstHeading">'+currentSpecimen.species+'</h1>'+
     '<div class="bodyContent">'+
-    '<img src="img/' + currentSpecimen.accession_number + '.jpg" />'+
+    '<img alt="Photo of plant" src="img/' + currentSpecimen.accession_number + '.jpg" />'+
     '<p>'+currentSpecimen.locality+'</p>'+
     '<p>Accession Number: '+currentSpecimen.accession_number+ '<br/>'+
     'Country: '+currentSpecimen.country+ '<br/>' +
