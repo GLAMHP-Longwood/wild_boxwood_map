@@ -2,6 +2,7 @@ var map;
 var oms;
 var markers = new Array();
 var infowindows = new Array();
+var prev_infowindow = null;
 
 function makeMarkerAndInfobox(currentSpecimen) {
   var positionOnMap = new google.maps.LatLng(currentSpecimen.latlon[0], currentSpecimen.latlon[1]);
@@ -62,7 +63,11 @@ function initialize() {
   }
 
   oms.addListener('click', function(m, e) {
+    if (prev_infowindow) {
+      prev_infowindow.close();
+    }
     m.__infowindow.open(map, m);
+    prev_infowindow = m.__infowindow;
   });
 
   var markerCluster = new MarkerClusterer(map, markers, {maxZoom: 10});
