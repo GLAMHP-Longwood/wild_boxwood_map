@@ -2,6 +2,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0600",
         "country": "Azerbaijan",
+        "has_picture": false,
         "latlon": [
             38.543332,
             48.825302
@@ -13,6 +14,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0610",
         "country": "Azerbaijan",
+        "has_picture": false,
         "latlon": [
             38.33863,
             48.43843
@@ -24,6 +26,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0615",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.6086375,
             45.9307909
@@ -35,6 +38,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0616",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.6086375,
             45.9307909
@@ -46,6 +50,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0617",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.6086375,
             45.9307909
@@ -57,6 +62,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0619",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.6501661,
             42.0602518
@@ -68,6 +74,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0632",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             42.4545024,
             43.0818693
@@ -79,6 +86,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0644",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.5712976,
             39.7427223
@@ -90,6 +98,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0645",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.5712976,
             39.7427223
@@ -101,6 +110,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0647",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             44.4198544,
             34.0506307
@@ -112,6 +122,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0648",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.4679265,
             34.1435889
@@ -123,6 +134,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0649",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.4198544,
             34.0506307
@@ -134,6 +146,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0650",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -145,6 +158,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0651",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -156,6 +170,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0652",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -167,6 +182,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0654",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -178,6 +194,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0655",
         "country": "Ukraine",
+        "has_picture": false,
         "latlon": [
             44.5106284,
             34.23185
@@ -189,6 +206,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0656",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -200,6 +218,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0657",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -211,6 +230,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0658",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -222,6 +242,7 @@ var boxwoodData = [
     {
         "accession_number": "2002-0659",
         "country": "Ukraine",
+        "has_picture": true,
         "latlon": [
             44.5106284,
             34.23185
@@ -233,6 +254,7 @@ var boxwoodData = [
     {
         "accession_number": "1997-1035",
         "country": "Albania",
+        "has_picture": true,
         "latlon": [
             40.21444,
             19.57694
@@ -244,6 +266,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1280",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.48014,
             44.49357
@@ -255,6 +278,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1287",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8667042,
             44.9124449
@@ -266,6 +290,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1289",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.6851348,
             44.8029682
@@ -277,6 +302,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1291",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8368437,
             44.4499327
@@ -288,6 +314,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1292",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.1202,
             46.22404
@@ -299,6 +326,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1294",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.1202,
             46.22404
@@ -310,6 +338,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1281",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.48014,
             44.49357
@@ -321,6 +350,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1295",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.1202,
             46.22404
@@ -332,6 +362,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1299",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.9056702,
             46.2978888
@@ -343,6 +374,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1300",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             42.0039907,
             45.7119548
@@ -354,6 +386,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1301",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             42.0039907,
             45.7119548
@@ -365,6 +398,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1302",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             42.0039907,
             45.7119548
@@ -376,6 +410,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1303",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             42.0039907,
             45.7119548
@@ -387,6 +422,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1304",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.59421,
             45.47355
@@ -398,6 +434,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1306",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.59421,
             45.47355
@@ -409,6 +446,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1307",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.59421,
             45.47355
@@ -420,6 +458,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1309",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.59421,
             45.47355
@@ -431,6 +470,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1310",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.59421,
             45.47355
@@ -442,6 +482,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1311",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8974696,
             45.5677163
@@ -453,6 +494,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1312",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.698166,
             44.3731356
@@ -464,6 +506,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1313",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.42956,
             44.48797
@@ -475,6 +518,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1314",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.7098734,
             44.7383236
@@ -486,6 +530,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1316",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.7098734,
             44.7383236
@@ -497,6 +542,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1317",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8974696,
             45.5677163
@@ -508,6 +554,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1318",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8625597,
             43.1372005
@@ -519,6 +566,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1319",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8363263,
             43.3701019
@@ -530,6 +578,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1321",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.45272,
             43.30233
@@ -541,6 +590,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1322",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8363263,
             43.3701019
@@ -552,6 +602,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1323",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8363263,
             43.3701019
@@ -563,6 +614,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1324",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.7468829,
             43.5279179
@@ -574,6 +626,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1326",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.48085,
             43.1161
@@ -585,6 +638,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1328",
         "country": "Georgia",
+        "has_picture": false,
         "latlon": [
             41.48085,
             43.1161
@@ -596,6 +650,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1331",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.48085,
             43.1161
@@ -607,6 +662,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1332",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.48085,
             43.1161
@@ -618,6 +674,7 @@ var boxwoodData = [
     {
         "accession_number": "2012-0869",
         "country": "",
+        "has_picture": false,
         "latlon": [
             41.48085,
             43.1161
@@ -629,6 +686,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1340",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.682,
             42.039
@@ -640,6 +698,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1285",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.8712146,
             44.7662327
@@ -651,6 +710,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1344",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.32353,
             41.37543
@@ -662,6 +722,7 @@ var boxwoodData = [
     {
         "accession_number": "2001-1350",
         "country": "Georgia",
+        "has_picture": true,
         "latlon": [
             41.692717,
             41.719783
@@ -673,6 +734,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1922",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -684,6 +746,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1871",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -695,6 +758,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1883",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -706,6 +770,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1939",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -717,6 +782,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1955",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -728,6 +794,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1944",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -739,6 +806,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1945",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -750,6 +818,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1863",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -761,6 +830,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1946",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -772,6 +842,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1864",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -783,6 +854,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1865",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -794,6 +866,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1858",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -805,6 +878,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1859",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -816,6 +890,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1951",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -827,6 +902,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1965",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -838,6 +914,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1835",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             42.003991,
             21.4236027
@@ -849,6 +926,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1843",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -860,6 +938,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1904",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -871,6 +950,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1907",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -882,6 +962,7 @@ var boxwoodData = [
     {
         "accession_number": "1958-1914",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             42.003991,
             21.4236027
@@ -893,6 +974,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0857",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.95993823,
             21.29631321
@@ -904,6 +986,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0858",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.95758675,
             21.29677392
@@ -915,6 +998,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0859",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.95078947,
             21.29948585
@@ -926,6 +1010,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0861",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.94986156,
             21.29886035
@@ -937,6 +1022,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0862",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.97319303,
             21.37724516
@@ -948,6 +1034,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0863",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.97253293,
             21.37724516
@@ -959,6 +1046,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0864",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81823711,
             21.63074947
@@ -970,6 +1058,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0865",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81847856,
             21.63087948
@@ -981,6 +1070,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0866",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81784171,
             21.59870326
@@ -992,6 +1082,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0867",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81783644,
             21.59921101
@@ -1003,6 +1094,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0868",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81786629,
             21.59922614
@@ -1014,6 +1106,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0869",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.81787351,
             21.59914776
@@ -1025,6 +1118,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0870",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.8178047,
             21.59925078
@@ -1036,6 +1130,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0872",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.98084374,
             21.60119293
@@ -1047,6 +1142,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0873",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.80939019,
             21.60119293
@@ -1058,6 +1154,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0874",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.80925296,
             21.60138235
@@ -1069,6 +1166,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0875",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.8204414,
             21.59876846
@@ -1080,6 +1178,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0876",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.81864254,
             21.59858334
@@ -1091,6 +1190,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0877",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.36126213,
             22.25388479
@@ -1102,6 +1202,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0878",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.8400809,
             21.6819142
@@ -1113,6 +1214,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0879",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             41.83381486,
             21.68188349
@@ -1124,6 +1226,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0880",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.83370497,
             21.68207543
@@ -1135,6 +1238,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0881",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.83361077,
             21.68225609
@@ -1146,6 +1250,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0882",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             41.8336915,
             21.68211995
@@ -1157,6 +1262,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0883",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             40.92826584,
             20.7773823
@@ -1168,6 +1274,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0884",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             40.92330173,
             20.77391487
@@ -1179,6 +1286,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0885",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             40.91901429,
             20.77405616
@@ -1190,6 +1298,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0886",
         "country": "Macedonia",
+        "has_picture": false,
         "latlon": [
             40.918659,
             20.7739705
@@ -1201,6 +1310,7 @@ var boxwoodData = [
     {
         "accession_number": "2007-0888",
         "country": "Macedonia",
+        "has_picture": true,
         "latlon": [
             40.90683733,
             20.80014459
@@ -1212,6 +1322,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0418",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1223,6 +1334,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0419",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1234,6 +1346,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0420",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1245,6 +1358,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0422",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1256,6 +1370,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0431",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1267,6 +1382,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0432",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1278,6 +1394,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0433",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1289,6 +1406,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0434",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1300,6 +1418,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0435",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1311,6 +1430,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0437",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1322,6 +1442,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0438",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1333,6 +1454,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0439",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1344,6 +1466,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0440",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1355,6 +1478,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0441",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1366,6 +1490,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0442",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1377,6 +1502,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0443",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1388,6 +1514,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0444",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1399,6 +1526,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0445",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1410,6 +1538,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0446",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1421,6 +1550,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0448",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1432,6 +1562,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0449",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1443,6 +1574,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0450",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1454,6 +1586,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0451",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1465,6 +1598,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0452",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1476,6 +1610,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0453",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1487,6 +1622,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0454",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1498,6 +1634,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0455",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1509,6 +1646,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0456",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
@@ -1520,6 +1658,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0458",
         "country": "Russian Federation",
+        "has_picture": false,
         "latlon": [
             43.6017215,
             39.725129
@@ -1531,6 +1670,7 @@ var boxwoodData = [
     {
         "accession_number": "2004-0459",
         "country": "Russian Federation",
+        "has_picture": true,
         "latlon": [
             43.6017215,
             39.725129
